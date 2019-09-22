@@ -1,0 +1,78 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#steps-background {
+  width: 45%;
+  height: 16%;
+  fill: #800080;
+  opacity: 0.5;
+}
+
+#distance-background {
+  width: 45%;
+  height: 16%;
+  fill: #4169E1;
+  opacity: 0.5;
+}
+
+#calories-background {
+  width: 45%;
+  height: 16%;
+  fill: #FFA500;
+  opacity: 0.3;
+}
+
+#floors-background {
+  width: 45%;
+  height: 16%;
+  fill: #32CD32;
+  opacity: 0.5;
+}
+
+#steps {
+  width: 0%;
+  height: 16%;
+  fill: #800080;
+}
+
+#distance {
+  width: 0%;
+  height: 16%;
+  fill: #4169E1;
+}
+
+#calories {
+  width: 0%;
+  height: 16%;
+  fill: #FFA500;
+}
+
+#floors {
+  width: 0%;
+  height: 16%;
+  fill: #32CD32;
+}
+
+#separator {
+  width: 54%;
+  height: 1%;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 18;
+  x: 50%;
+  y: $;
+}

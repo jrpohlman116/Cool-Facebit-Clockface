@@ -1,0 +1,105 @@
+<svg>
+  <rect id="background" pointer-events="all"/>
+  
+  <text id="date" x="67%" y="35%"
+      fill="#ffffff" font-size="20" font-family="Colfax-Light"
+      text-anchor="middle" text-length="20">Jan 01</text>
+  <text id="time" x="67%" y="51%+15"
+      fill="white" font-size="66" font-family="Colfax-Black"
+      text-anchor="middle" text-length="20">00:00</text>
+  <rect id="separator" x="40%" y="63%" fill="white"/>
+  
+  <image id="weather-img"
+         href="assets/weather/fewclouds-day.png" 
+         fill="#7898f8" 
+         height="20" width="20" 
+         x="44%" y="66%" />
+  <text id="weather-data"
+        font-family="Colfax-Light"
+        fill="white" 
+        class="sensor-data"
+        x="57%" y="73%">{ ... }</text>
+  
+  <image id="hrm-img"
+         href="assets/heartrate.png" 
+         fill="#FF0000" 
+         height="20" width="20" 
+         x="73%" y="66%"/>
+  <text id="hrm-data" 
+        font-family="Colfax-Light"
+        fill="white" 
+        class="sensor-data"
+        x="86%" y="73%">{ ... }</text>
+  
+<!--  Steps  -->
+  <rect id="steps-background" 
+        x="-10%" y="12%" rx="20" ry="20"/>
+  <rect id="steps" 
+        x="-10%" y="12%" rx="20" ry="20"/>
+  <circle cx="29%" cy="20%" r="16" fill="black" />
+  <image id="activity-img"
+         href="assets/activities/steps.png" 
+         fill="white" 
+         height="18" width="18" 
+         x="27%" y="17%"/>
+  <text id="steps-data" 
+        font-family="Colfax-Bold"
+        fill="white" 
+        class="sensor-data"
+        text-anchor="end"
+        x="21%" y="22%">{ ... }</text>
+  
+<!--  Calories  -->
+  <rect id="calories-background" 
+        x="-10%" y="33%" rx="20" ry="20"/>
+  <rect id="calories" 
+        x="-10%" y="33%" rx="20" ry="20"/>
+  <circle cx="29%" cy="41%" r="16" fill="black" />
+  <image id="activity-img"
+         href="assets/activities/calories.png" 
+         fill="white" 
+         height="16" width="16" 
+         x="27%" y="37%+2"/>
+  <text id="calories-data" 
+        font-family="Colfax-Bold"
+        fill="white" 
+        class="sensor-data"
+        text-anchor="end"
+        x="21%" y="44%">{ ... }</text>
+  
+<!--  Distance  -->
+  <rect id="distance-background" 
+        x="-10%" y="55%" rx="20" ry="20"/>
+  <rect id="distance" 
+        x="-10%" y="55%" rx="20" ry="20"/>
+  <circle cx="29%" cy="63%" r="16" fill="black" />
+  <image id="activity-img"
+         href="assets/activities/distance.png" 
+         fill="white" 
+         height="16" width="16" 
+         x="27%" y="60%"/>
+  <text id="distance-data" 
+        font-family="Colfax-Bold"
+        fill="white" 
+        class="sensor-data"
+        text-anchor="end"
+        x="21%" y="66%">{ ... }</text>
+  
+<!--  Floors  -->
+  <rect id="floors-background" 
+        x="-10%" y="76%" rx="20" ry="20"/>
+  <rect id="floors" 
+        x="-10%" y="76%" rx="20" ry="20"/>
+  <circle cx="29%" cy="84%" r="16" fill="black" />
+  <image id="activity-img"
+         href="assets/activities/floors.png" 
+         fill="white" 
+         height="16" width="16" 
+         x="27%" y="81%"/>
+  <text id="elevation-data" 
+        font-family="Colfax-Bold"
+        fill="white" 
+        class="sensor-data"
+        text-anchor="end"
+        x="21%" y="87%">{ ... }</text>
+</svg>
